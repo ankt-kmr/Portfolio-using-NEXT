@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Software Developer",
     location: "L&T Technology Services",
     description:
-      "Working as a Full Stack Developer, building scalable web applications using Node.js, React, and MongoDB. Responsible for developing efficient back-end APIs, dynamic front-end interfaces, and managing database integration to deliver seamless user experiences.",
+      "building scalable web applications using Node.js, React, and MongoDB. Responsible for developing efficient back-end APIs, dynamic front-end interfaces, and managing database integration to deliver seamless user experiences.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
