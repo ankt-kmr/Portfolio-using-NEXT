@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import contactApi from "@/public/contactApi.png";
 import chatApp from "@/public/chatApp.png";
-import blogPost from "@/public/blogpost.png";
+import blogPost from "@/public/blogPost.png";
 
 export const links = [
   {
