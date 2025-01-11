@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import contactApi from "@/public/contactApi.png";
+import chatApp from "@/public/chatApp.png";
+import blogPost from "@/public/blogpost.png";
 
 export const links = [
   {
@@ -35,6 +35,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Bachelor's Degree in Information Technology",
+    location: "NIT Srinagar",
+    description:
+      "Graduated with a Bachelor's degree in Information Technology. Gained a strong foundation in computer programming, data structures, algorithms, and software engineering principles.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020-2024",
+  },
+  {
     title: "Web Developer Intern",
     location: "Educonf Technologies",
     description:
@@ -46,41 +54,33 @@ export const experiencesData = [
     title: "Software Developer",
     location: "L&T Technology Services",
     description:
-      "building scalable web applications using Node.js, React, and MongoDB. Responsible for developing efficient back-end APIs, dynamic front-end interfaces, and managing database integration to deliver seamless user experiences.",
+      "Building scalable web applications using Node.js, React, and MongoDB. Responsible for developing efficient back-end APIs, dynamic front-end interfaces, and managing database integration to deliver seamless user experiences.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - present",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Blog Post Application",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed a MERN-based blogging platform with secure authentication, role-based access control, CRUD functionality, and image uploads. Ensured responsive design for seamless use across devices.",
+    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Multer"],
+    imageUrl: blogPost,
   },
   {
-    title: "rmtDev",
+    title: "Contact-App API",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Created a secure RESTful API for contact management with JWT authentication, bcrypt-secured passwords, and optimized CRUD operations.",
+    tags: ["Node.js", "Express", "MongoDB", "JWT", "Bcrypt"],
+    imageUrl: contactApi,
   },
   {
-    title: "Word Analytics",
+    title: "Web Chat Application",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Built a real-time chat application with Socket.io for seamless, low-latency multi-user communication. Designed efficient backend APIs to support smooth interactions.",
+    tags: ["Node.js", "Socket.io", "Express", "JavaScript"],
+    imageUrl: chatApp,
   },
 ] as const;
 
