@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const {ref} = useSectionInView("About");
-  
+  const { ref } = useSectionInView("About");
+
   return (
     <motion.section
       ref={ref}
@@ -17,7 +17,52 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About Me</SectionHeading>
-      <p className="mb-3">
+
+      <div className="">
+        <p className="mb-3">
+          Hello! I’m a passionate{" "}
+          <span style={{ fontWeight: "bold" }}>Full Stack Developer</span> with
+          a strong foundation in{" "}
+          <span style={{ fontWeight: "bold" }}>problem-solving</span> and
+          software engineering. I hold a{" "}
+          <span style={{ fontWeight: "bold" }}>
+            B.Tech in Information Technology
+          </span>{" "}
+          from the prestigious{" "}
+          <span style={{ fontWeight: "bold" }}>
+            National Institute of Technology, Srinagar
+          </span>
+          .
+        </p>
+        <p className="mb-3">
+          My core expertise lies in the{" "}
+          <span style={{ fontWeight: "bold" }}>
+            MERN stack (MongoDB, Express.js, React, Node.js)
+          </span>
+          , where I enjoy building intuitive, scalable, and efficient web
+          applications. As a{" "}
+          <span style={{ fontWeight: "bold" }}>learning enthusiast</span>, I’m
+          always on the lookout for new technologies and frameworks to enhance
+          my skill set and deliver cutting-edge solutions.
+        </p>
+        <p className="mb-4">
+          When I’m not coding, you’ll likely find me immersed in{" "}
+          <span style={{ fontStyle: "italic" }}>video games</span>, catching up
+          on my favorite <span style={{ fontStyle: "italic" }}>anime</span>, or
+          exploring the mind-bending world of{" "}
+          <span style={{ fontWeight: "bold" }}>quantum physics</span>. I believe
+          in balancing creativity and logic, whether it’s in writing code or
+          exploring hobbies.
+        </p>
+
+        <p className="">
+          <span style={{ fontWeight: "bold" }}>
+            Let’s create something amazing together!
+          </span>
+        </p>
+      </div>
+
+      {/* <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
@@ -42,7 +87,7 @@ export default function About() {
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the guitar.
-      </p>
+      </p> */}
     </motion.section>
   );
 }

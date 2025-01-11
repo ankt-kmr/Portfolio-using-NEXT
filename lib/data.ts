@@ -35,29 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Web Developer Intern",
+    location: "Educonf Technologies",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Gained hands-on experience with React.js, JavaScript, and Mapbox GL JS during my internship. Built interactive maps and responsive web interfaces, enhancing my technical skills and problem-solving abilities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022",
   },
+  {
+    title: "Software Developer",
+    location: "L&T Technology Services",
+    description:
+      "Working as a Full Stack Developer, building scalable web applications using Node.js, React, and MongoDB. Responsible for developing efficient back-end APIs, dynamic front-end interfaces, and managing database integration to deliver seamless user experiences.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Houston, TX",
+  //   description:
+  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -88,20 +88,17 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
+  "Restful API",
+  "C",
+  "C++",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Socket.io",
+  "JWT",
+  "Bcrypt",
 ] as const;
